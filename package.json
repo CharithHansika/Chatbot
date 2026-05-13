@@ -5,4 +5,7 @@
   "scripts": {
     "start": "node api/server.js"
   }
+  "engines": {
+  "node": "18.x"
+ }
 }
