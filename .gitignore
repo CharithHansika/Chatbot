@@ -1,1 +1,14 @@
+# API Keys සහ රහස්‍ය දත්ත (මෙය අනිවාර්ය වේ)
+.env
+.env.local
 
+# Libraries (මේවා GitHub වලට දැමීම අවශ්‍ය නැත)
+node_modules/
+
+# Next.js build දත්ත
+.next/
+out/
+build/
+
+# අනවශ්‍ය ගොනු
+.DS_Store
