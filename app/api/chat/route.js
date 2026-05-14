@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextResponse } from "next/server";
-const genAI = new GoogleGenerativeAI(process.env.CHATBOT_API_KEY);
+const genAI = new GoogleGenerativeAI(process..env.local.CHATBOT_API_KEY);
 export async function POST(req) {
 try {
 const { prompt } = await req.json();
