@@ -5,7 +5,8 @@ export async function POST(req) {
 try {
 const { prompt } = await req.json();
 // Gemini 1.5 Flash මොදිලිය භාවිතා කිරීමෙ
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+// මෙය උත්සාහ කර බලන්න (සම්පූර්ණ නම)
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" });
 const result = await model.generateContent(prompt);
 const response = await result.response;
 const text = response.text();
